@@ -1,0 +1,348 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    color: #31353e;
+}
+
+.panakeia-header-bg{
+    background-color: #edeff1;
+    overflow: hidden;
+}
+
+.navbar{
+    min-height: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #31353e;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+    background: #dd4b2b;
+    border-radius: 35px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background: #dd4b2b;
+    border-radius: 35px;
+}
+
+.panakeia-banner-bg{
+    width: 100%;
+    background: url(../img/panakeia-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 1320px;
+    overflow: hidden;
+}
+
+.banner-title{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 490px;
+}
+
+.banner-title h1{
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.banner-title p{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content-align{
+    padding-top: 120px;
+}
+
+.banner-content-align h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.banner-content-align p{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+.read-more-aling{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.read-more{
+    width: 230px;
+    margin: 0 auto;
+    height: 50px;
+    background: #ffffff;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    color: #612316;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.read-more:hover{
+    background: #dd4b2b;
+    color: #ffffff;
+}
+
+.news-content-align{
+    text-align: center;
+}
+
+.panakeia-news-bg{
+    width: 100%;
+    min-height: 785px;
+    background: #edeff1;
+}
+
+.title-maintain h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #31353e;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.item-maintain h3{
+    color: #31353e;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 38px;
+    
+}
+
+.item-maintain p{
+    color: #31353e;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.item-maintain .news-read-more{
+    width: 45%;
+    margin: 0 auto;
+    height: 50px;
+    background: #ffffff;
+    border: none;
+    border-radius: 35px;
+    margin-top: 8%;
+    cursor: pointer;
+    color: #4e5159;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    transition: .5s;
+}
+
+.item-maintain .news-read-more:hover{
+    background: #dd4b2b;
+    color: #ffffff;
+}
+
+.newsletter-bg{
+    width: 100%;
+    background: url(../img/panakeia-signup-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 385px;
+    overflow: hidden;
+}
+
+.newsletter-title{
+    text-align: center;
+    padding-top: 85px;
+}
+
+.newsletter-title h3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+.newsletter-title p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.form{
+    width: 100%;
+    position: relative;
+    padding-top: 45px;
+}
+
+.form input::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form-control{
+    width: 100%;
+    margin: 0 auto;
+    height: 55px;
+    border: 2px solid #cbcac6;
+    border-radius: 35px;
+    background: rgba(172, 168, 162, 0.5);
+    padding-left: 30px;
+}
+
+.btn-sign-up{
+    color: #612316;
+    font-size: 18px;
+    font-weight: 500;
+    width: 200px;
+    height: 55px;
+    border: 2px solid #cbcac6;
+    border-radius: 35px;
+    background: #ffffff;
+}
+
+.btn-sign-up:hover{
+    background: #dd4b2b;
+    border: 2px solid #cbcac6;
+}
+
+.sign-up{
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.product-bg{
+    width: 100%;
+    min-height: 1020px;
+    overflow: hidden;
+}
+
+.product-content h3{
+    color: #191b29;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 125px;
+}
+
+.product-content p{
+    color: #191b29;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+
+span{
+    margin-top: 40px;
+}
+
+.product-img img{
+    padding-top: 80px;
+}
+
+.btn-product-signup{
+    width: 210px;
+    height: 50px;
+    background: #dd4b2b;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+.btn-product-signup:hover{
+    color: #191b29;
+    border: 2px solid #191b29;
+    background: #ffffff;
+}
+
+.footer-bg{
+    background: #d75d0e;
+    width: 100%;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.footer-menu{
+    padding-top: 70px;
+}
+
+.footer-menu ul{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-menu ul li{
+    padding-top: 15px;
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.footer-menu ul li a:hover{
+    color: #191b29;
+}
+
+.footer-last-part-bg{
+    width: 100%;
+    background: url(../img/panakeia-footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 375px;
+}
+
+.footer-content{
+    padding-top: 90px;
+}
+
+.footer-content p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    width: 52%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content p>span{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
